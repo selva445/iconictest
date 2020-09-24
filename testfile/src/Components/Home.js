@@ -90,6 +90,7 @@ export default function Home() {
             </Typography>
             <input style={{ width: 300 }} type="text" name="search" placeHolder=" Type something to Search [Ex:Sandal,Dress]" onChange={setSearchtext}/>
             
+            
                 { filtereddata.map( eachprod => {
 
                     return (
